@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
+import Navbar2 from '../../components/Navbar2/Navbar2';
 
 
 
@@ -15,7 +16,8 @@ const Hero = () => {
   return (
     <div className='bg-[url("/bg3.png")] w-full h-[100vh] bg-cover bg-no-repeat bg-center '>
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
+            <Navbar2/>
         </div>
         <div  className='flex flex-col md:flex-row  '>
         <div className=' px-8 py-16 md:px-28 md:py-20'>

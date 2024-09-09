@@ -31,9 +31,9 @@ const Footer = () => {
 
   return (
    <>
-   <div className='text-gray-600 p-5'>
+   <div className='bg-gray-100 p-5'>
 
-    <div className='grid grid-cols-3 gap-10 '>
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
     <div className=' flex flex-col items-start relative  w-full'>
     <div className='relative flex '>
         <h1 className='z-10 text-black text-xl md:text-2xl font-bold absolute left-3 top-1.5'>ProTech..</h1>
@@ -48,7 +48,7 @@ const Footer = () => {
       <Button2 name='Subscribe' mt='mt-3'/>
     </div>
 
-    <div className=' w-full flex justify-center'>
+    <div className=' w-full flex '>
     <div className=' flex flex-col items-start  '>
       <h1  className='text-[#db8a3b] text-2xl font-semibold'>Quick Links</h1>
 

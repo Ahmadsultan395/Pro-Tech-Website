@@ -65,7 +65,7 @@ const TestimonialMain = () => {
         </div>
       <Slider {...settings} className=''>
       {listData.map((row, index)=>(
-        <div key={index} className='max-w-full md:max-w-sm border-[1px] border-gray-700  p-5 rounded-xl'>
+        <div key={index} className='max-w-full md:max-w-full border-[1px] border-gray-700  p-5 rounded-xl'>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto magnam quasi aut similique totam molestias.
         </p>

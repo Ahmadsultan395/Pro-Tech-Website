@@ -1,14 +1,14 @@
 .slick-slide > div {
-  margin: 0 0.5rem; /* Adds a 1rem gap between slides (0.5rem on each side) */
+  margin: 0 0.5rem; 
 }
 
 .slick-list {
-  margin: 0 -0.5rem; /* Offsets the margin to ensure no extra space on the edges */
+  margin: 0 -0.5rem; 
 }
 
 @media (max-width: 600px) {
   .slick-slide > div {
-      /* margin: 0; Removes the gap on small screens */
-      /* width: 100%; Ensures the slide takes up full width */
+       margin: 0;  
+      width: 100%;
   }
 }

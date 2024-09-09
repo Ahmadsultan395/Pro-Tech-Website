@@ -34,9 +34,9 @@ const AwardsMain = () => {
             We offer cutting-edge software solutions, from web development and mobile apps to cloud services and digital marketing.
             </p> */}
         </div>
-        <div className='flex flex-wrap flex-col md:flex-row justify-center gap-3 md:gap-3  mt-3 md:mt-0 p-0'>
+        <div className=' grid md:grid-cols-2 lg:grid-cols-3 gap-3 p-0 mt-0 md:mt-10 '>
             {listData.map((row, index)=>(
-                <div key={index} className='md:max-w-xs  border-[1px] border-gray-700 p-5 rounded-xl mt-0 md:mt-10 
+                <div key={index} className='md:max-w-full  border-[1px] border-gray-700 p-5 rounded-xl 
                  cursor-pointer  hover:bg-[#db8a3b] group transition duration-300'>
                 <h1 className='text-[1rem] md:text-xl mb-2 text-[#db8a3b] group-hover:text-white transition duration-300'>
                     {row.year}

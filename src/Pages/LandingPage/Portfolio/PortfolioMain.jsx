@@ -60,7 +60,7 @@ const PortfolioMain = () => {
         </div>
       <Slider {...settings} >
       {listData.map((row, index)=>(
-        <div key={index} className='max-w-sm '>
+        <div key={index} className='max-w-full'>
         <div className='h-[18rem] rounded-xl overflow-hidden mx-1'>
         <img src={row.img}  alt="" className=' w-full h-full object-cover'/>
         </div>
